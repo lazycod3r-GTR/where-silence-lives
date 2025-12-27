@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>fromafar</title>
+  <link rel="stylesheet" href="cards.css">
+</head>
+<body>
+
+<div class="viewer">
+  <div class="zone left" onclick="prev()"></div>
+
+  <img id="card" src="cards/page1.jpg" alt="Postcard">
+
+  <div class="zone right" onclick="next()"></div>
+</div>
+
+<!-- Page number -->
+<div id="pageIndicator">1 / 5</div>
+
+<!-- PDF fallback (UPDATED TEXT) -->
+<div id="pdfFallback">
+  <a href="from-a-far.pdf" target="_blank">
+    📄 Having trouble? View as PDF
+  </a>
+</div>
+
+<script src="cards.js"></script>
+</body>
+</html>
